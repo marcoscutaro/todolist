@@ -1,24 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body{
+  background-color:#8157ff;
+  color: aliceblue;
+  display: grid;
+  place-content: center;
+}
+
+button{
+  padding: 0.5rem;
+  font-weight: 700;
+  margin: 1rem;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+  color: #8157ff;
+  border: none;
+}
+
+button:hover {
+  background-color: #6948cd;
+  padding: 10px;
+  color: white;
+}
+
+h1{
+  text-align: center;
+}
+
+.list-section {
+  width: 500px;
+  height:fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding-bottom: 15px;
+  margin: 8px;
+}
+
+ul {
+  padding: 0;
   
-  
-  
-  .jumbotron{
-      position: relative;
-      background-image: url('https://images.pexels.com/photos/953826/pexels-photo-953826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-      background-size: cover;
-      background-position: center;
-      width: 100%;
-      height: auto;
-      color: aliceblue;
-    }
-   
-   .footer-bg{
-    height: 30vh;
-    background-color: black;
-    color: aliceblue;
-    font-size: large;
-    text-align: center;
-   }
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  height: 30px;
+  background-color: #fffdfbd7;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.taskList-container{
+
+  display: grid;
+}
